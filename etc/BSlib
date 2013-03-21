@@ -1,0 +1,11 @@
+# Clef API Betaseries
+BS_apikey=
+
+# Fichier log
+LOGFILE="/var/log/Betaseries"
+#LOGFILE="/dev/stdout"
+
+# Credentials utilisateur Betaseries
+BS_user="Dev010"
+BS_pw="developer"
+

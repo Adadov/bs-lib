@@ -1,15 +1,12 @@
 #!/bin/bash
 
-# Clef API Betaseries
-BS_apikey=
 
-# Fichier log
-LOGFILE="/var/log/Betaseries"
-#LOGFILE="/dev/stdout"
+#############################################################
+## CHARGEMENT DE LA CONFIG UTILISATEUR                     ##
+##                                                         ##
+#############################################################
 
-# Credentials utilisateur Betaseries
-BS_user="Dev010"
-BS_pw="developer"
+source /etc/BSlib
 
 #############################################################
 ##  FONCTION -  AUTHENTIFICATION                           ##
